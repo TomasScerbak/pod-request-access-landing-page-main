@@ -201,6 +201,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .input {
   width: 32.7rem;
@@ -214,7 +215,7 @@ a {
   font-weight: bold;
   background-color: var(--color-dark-grey);
   color: var(--color-light-grey);
-  margin: 4.3rem 2.3rem 1.6rem 2.3rem;
+  margin: 4.3rem 2.3rem 2rem 2.3rem;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -225,6 +226,13 @@ input:-webkit-autofill:active {
 }
 input[type="email"] {
   color: var(--color-white);
+}
+.text {
+  position: absolute;
+  font-family: var(--ff-chivo);
+  font-size: 1.2rem;
+  padding-left: 4rem;
+  top: 56%;
 }
 .btn {
   border: none;
@@ -264,6 +272,16 @@ input[type="email"] {
     height: 4.6rem;
     margin: 0;
     padding: 0;
+  }
+  .text {
+    padding-left: 4rem;
+    top: 87%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .text {
+    padding-left: 4rem;
+    top: 110%;
   }
 }
 /* Wrappers for Tablet and Desktop */

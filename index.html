@@ -75,30 +75,32 @@
                 ><img
                   class="apple"
                   src="Images/desktop/apple-podcast.svg"
-                  alt="image that serves as link to spotify"
+                  alt="image that serves as link to apple podcast"
               /></a>
               <a href="#"
                 ><img
                   class="google"
                   src="Images/desktop/google-podcasts.svg"
-                  alt="image that serves as link to spotify"
+                  alt="image that serves as link to google podcast"
               /></a>
               <a href="#"
                 ><img
                   class="pocket"
                   src="Images/desktop/pocket-casts.svg"
-                  alt="image that serves as link to spotify"
+                  alt="image that serves as link to pocket-casts"
               /></a>
             </div>
-            <form class="input-form" action="#">
+            <form id="form" class="input-form" action="#">
               <input
                 class="input"
-                type="email"
+                type="text"
                 id="email"
                 placeholder="Email address"
+                onkeydown="validate()"
               />
               <button type="submit" id="btn" class="btn">Request Access</button>
             </form>
+            <span class="text" id="text"></span>
           </div>
         </section>
       </div>
@@ -112,5 +114,6 @@
         />
       </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
