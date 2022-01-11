@@ -231,8 +231,8 @@ input[type="email"] {
   position: absolute;
   font-family: var(--ff-chivo);
   font-size: 1.2rem;
-  padding-left: 4rem;
-  top: 56%;
+  margin-left: 6rem;
+  top: 80%;
 }
 .btn {
   border: none;
@@ -274,13 +274,13 @@ input[type="email"] {
     padding: 0;
   }
   .text {
-    padding-left: 4rem;
+    margin-left: 4rem;
     top: 87%;
   }
 }
 @media screen and (min-width: 1000px) {
   .text {
-    padding-left: 4rem;
+    margin-left: 4rem;
     top: 110%;
   }
 }
